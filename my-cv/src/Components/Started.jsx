@@ -31,10 +31,12 @@ export default function Started() {
                 </h4>
             </div>
             <div className={Style.startedTwo} style={{paddingTop: "50px"}}>
-                <Link to='/me'>
-                    <button className="btn btn-primary">
-                        Click para hechar un vistazo
-                    </button>
+                <Link to='/me/about'>
+                    <div className={Style.button}>
+                        <button className="btn btn-primary">
+                            Click para hechar un vistazo
+                        </button>
+                    </div>
                 </Link>
             </div>
         </div>
