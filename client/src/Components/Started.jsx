@@ -1,15 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import fondo from '../img/fondo.jpg';
 import perfil from '../img/perfil.jpg';
 import Style from '../Styles/Started.module.css';
 
 export default function Started() {
     return (
         <div>
-            <div className={Style.img} style={{height: "100%", width: "100%"}}>
-                <img src={fondo} alt="fondo" style={{height: "100%", width: "100%"}}/>
-            </div>
             <div className={Style.containerInfo}>
                 <div className={Style.containerPic}>
                     <img className={Style.pic} src={perfil} alt="perfil"/>
