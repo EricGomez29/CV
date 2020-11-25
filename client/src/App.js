@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
-import About from './Components/About.jsx';
+import img from './img/fondo.jpg';
 import NavBar from './Components/Nav.jsx';
 import Started from './Components/Started';
+import About from './Components/About.jsx';
 import fondo from './Styles/Started.module.css';
-import img from './img/fondo.jpg';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import './App.css';
 

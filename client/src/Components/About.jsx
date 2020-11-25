@@ -1,18 +1,18 @@
+import Aos from 'aos';
 import React from 'react';
-import style from '../Styles/About.module.css';
-import  Aos from 'aos';
-import icon from '../img/henry.png';
-import git from '../img/git.png';
+import 'aos/dist/aos.css';
 import js from '../img/js.png';
+import css from '../img/css.png';
+import git from '../img/git.png';
+import { useEffect } from 'react';
+import icon from '../img/henry.png';
 import react from '../img/react.png';
 import redux from '../img/redux.png';
-import css from '../img/css.png';
 import node from '../img/nodejs.png';
-import webpackBabel from '../img/babel.png';
 import redis from '../img/redis.png';
 import postgre from '../img/postgres.png';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import webpackBabel from '../img/babel.png';
+import style from '../Styles/About.module.css';
 
 
 export default function About() {

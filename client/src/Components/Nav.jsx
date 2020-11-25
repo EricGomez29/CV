@@ -11,6 +11,7 @@ export default function NavBar() {
                     <h5 className="navbar-brand" style={{color: "yellow", margin: "0px", paddingLeft: "5px", fontSize: "2.09375rem", textTransform: "none"}}>{` />`}</h5>
                 </Link>
             </div>
+            
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
