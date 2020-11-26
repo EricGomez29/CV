@@ -19,10 +19,14 @@ export default function NavBar() {
             <div className="collapse navbar-collapse" id="navbarColor01">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Proyectos</a>
+                        <Link style={{textDecoration: "none"}} to='/me/projects'>
+                            <a className="nav-link" href="/me/projects">Proyectos</a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Sobre Mi</a>
+                        <Link style={{textDecoration: "none"}} to='/me/about'>
+                            <a className="nav-link" href="/me/about">Sobre Mi</a>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Contacto</a>
