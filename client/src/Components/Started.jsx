@@ -17,7 +17,7 @@ export default function Started() {
                 </div>
             </div>
             <div className={Style.started}>
-                <h1 style={{color: "white", border: "3px solid yellow", padding: "8px"}}>
+                <h1 style={{ textAlign: "center" ,color: "white", border: "3px solid yellow", padding: "8px"}}>
                     Hola!, bienvenid@ a mi portafolio personal.
                 </h1>
             </div>
