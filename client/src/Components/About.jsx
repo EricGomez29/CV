@@ -22,7 +22,7 @@ export default function About() {
     })
 
     return (
-        <div className={style.container}>
+        <div data-aos="zoom-in" className={style.container}>
             <div className={style.subContainer}>
 
                 <div className={style.title}>
