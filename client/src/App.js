@@ -7,6 +7,7 @@ import Projects from './Components/Projects';
 import fondo from './Styles/Started.module.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
+import Contact from './Components/Contact';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/me' render={() => <NavBar />}/>
           <Route exact path='/me/about' render={() => <About />}/>
           <Route exact path='/me/projects' render={() => <Projects />}/>
+          <Route exact path='/me/contact' render={() => <Contact />}/>
         </div>
       </div>
     </BrowserRouter>

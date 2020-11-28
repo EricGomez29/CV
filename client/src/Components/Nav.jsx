@@ -29,7 +29,9 @@ export default function NavBar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contacto</a>
+                        <Link style={{textDecoration: "none"}} to='/me/contact'>
+                            <a className="nav-link" href="/me/contact">Contacto</a>
+                        </Link>
                     </li>
                 </ul>
             </div>

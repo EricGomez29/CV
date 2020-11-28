@@ -18,7 +18,7 @@ export default function Projects() {
                     </h1>
                 </div>
                 
-                <div className={style.grid} >
+                <div data-aos="zoom-in" className={style.grid} >
                     <div>
                         <h1>Weather App</h1>
                         <p>Este proyecto fue hecho en henry durante el periodo de estudio</p>
