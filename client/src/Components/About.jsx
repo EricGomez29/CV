@@ -31,11 +31,11 @@ export default function About() {
 
                 <hr/>
 
-                <div data-aos="zoom-in" className={style.info}>
+                <div className={style.info}>
                     <h6>
-                        ¡Hola! Mi nombre es Eric, y soy un Desarrollador Web Fullstack.
-                        Tengo 19 años, y mi curiosidad por el mundo de la programación comenzó a los 15 años.
-                        Con curiosidad sobre cómo poder crear mi propio videojuego, llegué a "Unity 3D", un motor de videojuegos donde podías aprender a crear juegos de manera sencilla.
+                        Mi nombre es Eric, y soy un Desarrollador Web Fullstack.
+                        Tengo 20 años, y mi curiosidad por el mundo de la programación comenzó a los 15 años.
+                        Con curiosidad sobre cómo poder crear mi propio videojuego, llegué a "Unity 3D", un motor de videojuegos donde podías aprender a crear juegos de manera intuitiva.
                         Hoy en día terminé en un área completamente diferente, como lo es el desarrollo de páginas y aplicaciones web. Pero no abandono mi deseo de aprender a hacer videojuegos profesionales.
                     </h6>
                 </div>

@@ -14,7 +14,7 @@ export default function Projects() {
             <div className={style.subContainer}>
                 <div className={style.title} >
                     <h1>
-                        mis proyectos
+                        experiencia
                     </h1>
                 </div>
                 
